@@ -1,0 +1,79 @@
+from twisted.internet.protocol import Protocol, Factory
+from twisted.internet import reactor
+
+import RPi.GPIO as GPIO
+import os
+import subprocess
+
+GPIO.setmode(GPIO.BOARD) ## Use board pin numbering
+GPIO.setup(7, GPIO.OUT) ## Setup GPIO Pin 7 to OUT
+GPIO.setup(12, GPIO.OUT)
+
+
+class RaspberryLight(Protocol):
+	def connectionMade(self):
+		#self.transport.write("""connected""")
+		self.factory.clients.append(self)
+		print "clients are ", self.factory.clients
+
+	def connectionLost(self, reason):
+		print "connection lost ", self.factory.clients
+		self.factory.clients.remove(self)
+
+
+	def dataReceived(self, data):
+			msg = ""
+
+			if (data[1:] == '7H'):
+				msg = "Pin 7 is now High"
+				GPIO.output(7, True)
+
+			elif (data == 'P7L'):
+				msg = "Pin 7 is now Low"
+				GPIO.output(7, False)
+			
+			if (data == 'reboot'):
+				msg = "REBOOTING"
+				os.system('reboot')
+
+			if (data == 'shutdown'):
+				msg = "SHUTTING DOWN"
+				os.system('sudo shutdown now -h')
+
+			if (data == 'st'):
+				msg = "Starting Stream"
+				#os.system('nohup ./testing.sh &')
+				os.system('nohup ./usbcam2.sh &')
+					
+			if (data == 'sp'):
+				msg = "Stopping Stream"
+				os.system('ps axf | grep mjpg_streamer | grep -v grep | awk \'{print "kill " $1 }\' | sh')
+
+			if (data == 'W'):
+				msg = "PWM MODE"
+				GPIO.PWM(12, int(data[1:]))
+			
+			if (data[:2] == 'FR'):
+			#msg = "PWM MODE"
+			#GPIO.PWM(12, int(data[1:]))
+				msg = "Forward Right PWM " +  data[2:5] + " SERVO " + data[5:]
+				
+
+			if (data[:2] == 'FL'):
+				msg = "Forward Left PWM " + data[2:5] + " SERVO " + data[5:]
+			
+			if (data[:2] == 'BR'):
+                                msg = "Backward Right PWM " + data[2:5] + " SERVO " + data[5:]
+			
+			if (data[:2] == 'BL'):
+                                msg = "Backward Left PWM " + data[2:5] + " SERVO " + data[5:]
+
+			print msg
+
+factory = Factory()
+factory.protocol = RaspberryLight
+factory.clients = []
+
+reactor.listenTCP(7777, factory)
+print "RaspberryLight server started"
+reactor.run()
