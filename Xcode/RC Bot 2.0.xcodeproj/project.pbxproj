@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC8EFE5B1D3F56740025FE71 /* JSAnalogueStick.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8EFE5A1D3F56740025FE71 /* JSAnalogueStick.m */; };
+		ACA011CA1D3F4F7D005F1C94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA011C91D3F4F7D005F1C94 /* main.m */; };
+		ACA011CD1D3F4F7D005F1C94 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA011CC1D3F4F7D005F1C94 /* AppDelegate.m */; };
+		ACA011D01D3F4F7D005F1C94 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA011CF1D3F4F7D005F1C94 /* ViewController.m */; };
+		ACA011D31D3F4F7D005F1C94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACA011D11D3F4F7D005F1C94 /* Main.storyboard */; };
+		ACA011D51D3F4F7D005F1C94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACA011D41D3F4F7D005F1C94 /* Assets.xcassets */; };
+		ACA011D81D3F4F7D005F1C94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACA011D61D3F4F7D005F1C94 /* LaunchScreen.storyboard */; };
+		ACA011E31D3F4F7E005F1C94 /* RC_Bot_2_0Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA011E21D3F4F7E005F1C94 /* RC_Bot_2_0Tests.m */; };
+		ACA011EE1D3F4F7E005F1C94 /* RC_Bot_2_0UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA011ED1D3F4F7E005F1C94 /* RC_Bot_2_0UITests.m */; };
+		ACCAEE671D3FDBD400FE5F14 /* L3SDKIPCam.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCAEE641D3FDBD400FE5F14 /* L3SDKIPCam.m */; };
+		ACCAEE681D3FDBD400FE5F14 /* L3SDKIPCamViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCAEE661D3FDBD400FE5F14 /* L3SDKIPCamViewer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACA011DF1D3F4F7E005F1C94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACA011BD1D3F4F7D005F1C94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACA011C41D3F4F7D005F1C94;
+			remoteInfo = "RC Bot 2.0";
+		};
+		ACA011EA1D3F4F7E005F1C94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACA011BD1D3F4F7D005F1C94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACA011C41D3F4F7D005F1C94;
+			remoteInfo = "RC Bot 2.0";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC8EFE591D3F56740025FE71 /* JSAnalogueStick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSAnalogueStick.h; sourceTree = "<group>"; };
+		AC8EFE5A1D3F56740025FE71 /* JSAnalogueStick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSAnalogueStick.m; sourceTree = "<group>"; };
+		ACA011C51D3F4F7D005F1C94 /* RC Bot 2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RC Bot 2.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACA011C91D3F4F7D005F1C94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ACA011CB1D3F4F7D005F1C94 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ACA011CC1D3F4F7D005F1C94 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ACA011CE1D3F4F7D005F1C94 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ACA011CF1D3F4F7D005F1C94 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ACA011D21D3F4F7D005F1C94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACA011D41D3F4F7D005F1C94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACA011D71D3F4F7D005F1C94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACA011D91D3F4F7D005F1C94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACA011DE1D3F4F7E005F1C94 /* RC Bot 2.0Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RC Bot 2.0Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACA011E21D3F4F7E005F1C94 /* RC_Bot_2_0Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RC_Bot_2_0Tests.m; sourceTree = "<group>"; };
+		ACA011E41D3F4F7E005F1C94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACA011E91D3F4F7E005F1C94 /* RC Bot 2.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RC Bot 2.0UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACA011ED1D3F4F7E005F1C94 /* RC_Bot_2_0UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RC_Bot_2_0UITests.m; sourceTree = "<group>"; };
+		ACA011EF1D3F4F7E005F1C94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACCAEE631D3FDBD400FE5F14 /* L3SDKIPCam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L3SDKIPCam.h; sourceTree = "<group>"; };
+		ACCAEE641D3FDBD400FE5F14 /* L3SDKIPCam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L3SDKIPCam.m; sourceTree = "<group>"; };
+		ACCAEE651D3FDBD400FE5F14 /* L3SDKIPCamViewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = L3SDKIPCamViewer.h; sourceTree = "<group>"; };
+		ACCAEE661D3FDBD400FE5F14 /* L3SDKIPCamViewer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = L3SDKIPCamViewer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACA011C21D3F4F7D005F1C94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACA011DB1D3F4F7E005F1C94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACA011E61D3F4F7E005F1C94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC8EFE581D3F56550025FE71 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				AC8EFE591D3F56740025FE71 /* JSAnalogueStick.h */,
+				AC8EFE5A1D3F56740025FE71 /* JSAnalogueStick.m */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		ACA011BC1D3F4F7D005F1C94 = {
+			isa = PBXGroup;
+			children = (
+				ACCAEE611D3FDBD400FE5F14 /* L3SDK */,
+				AC8EFE581D3F56550025FE71 /* Framework */,
+				ACA011C71D3F4F7D005F1C94 /* RC Bot 2.0 */,
+				ACA011E11D3F4F7E005F1C94 /* RC Bot 2.0Tests */,
+				ACA011EC1D3F4F7E005F1C94 /* RC Bot 2.0UITests */,
+				ACA011C61D3F4F7D005F1C94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACA011C61D3F4F7D005F1C94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACA011C51D3F4F7D005F1C94 /* RC Bot 2.0.app */,
+				ACA011DE1D3F4F7E005F1C94 /* RC Bot 2.0Tests.xctest */,
+				ACA011E91D3F4F7E005F1C94 /* RC Bot 2.0UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACA011C71D3F4F7D005F1C94 /* RC Bot 2.0 */ = {
+			isa = PBXGroup;
+			children = (
+				ACA011CB1D3F4F7D005F1C94 /* AppDelegate.h */,
+				ACA011CC1D3F4F7D005F1C94 /* AppDelegate.m */,
+				ACA011CE1D3F4F7D005F1C94 /* ViewController.h */,
+				ACA011CF1D3F4F7D005F1C94 /* ViewController.m */,
+				ACA011D11D3F4F7D005F1C94 /* Main.storyboard */,
+				ACA011D41D3F4F7D005F1C94 /* Assets.xcassets */,
+				ACA011D61D3F4F7D005F1C94 /* LaunchScreen.storyboard */,
+				ACA011D91D3F4F7D005F1C94 /* Info.plist */,
+				ACA011C81D3F4F7D005F1C94 /* Supporting Files */,
+			);
+			path = "RC Bot 2.0";
+			sourceTree = "<group>";
+		};
+		ACA011C81D3F4F7D005F1C94 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACA011C91D3F4F7D005F1C94 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ACA011E11D3F4F7E005F1C94 /* RC Bot 2.0Tests */ = {
+			isa = PBXGroup;
+			children = (
+				ACA011E21D3F4F7E005F1C94 /* RC_Bot_2_0Tests.m */,
+				ACA011E41D3F4F7E005F1C94 /* Info.plist */,
+			);
+			path = "RC Bot 2.0Tests";
+			sourceTree = "<group>";
+		};
+		ACA011EC1D3F4F7E005F1C94 /* RC Bot 2.0UITests */ = {
+			isa = PBXGroup;
+			children = (
+				ACA011ED1D3F4F7E005F1C94 /* RC_Bot_2_0UITests.m */,
+				ACA011EF1D3F4F7E005F1C94 /* Info.plist */,
+			);
+			path = "RC Bot 2.0UITests";
+			sourceTree = "<group>";
+		};
+		ACCAEE611D3FDBD400FE5F14 /* L3SDK */ = {
+			isa = PBXGroup;
+			children = (
+				ACCAEE621D3FDBD400FE5F14 /* UIKit */,
+			);
+			path = L3SDK;
+			sourceTree = "<group>";
+		};
+		ACCAEE621D3FDBD400FE5F14 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				ACCAEE631D3FDBD400FE5F14 /* L3SDKIPCam.h */,
+				ACCAEE641D3FDBD400FE5F14 /* L3SDKIPCam.m */,
+				ACCAEE651D3FDBD400FE5F14 /* L3SDKIPCamViewer.h */,
+				ACCAEE661D3FDBD400FE5F14 /* L3SDKIPCamViewer.m */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACA011C41D3F4F7D005F1C94 /* RC Bot 2.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACA011F21D3F4F7E005F1C94 /* Build configuration list for PBXNativeTarget "RC Bot 2.0" */;
+			buildPhases = (
+				ACA011C11D3F4F7D005F1C94 /* Sources */,
+				ACA011C21D3F4F7D005F1C94 /* Frameworks */,
+				ACA011C31D3F4F7D005F1C94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RC Bot 2.0";
+			productName = "RC Bot 2.0";
+			productReference = ACA011C51D3F4F7D005F1C94 /* RC Bot 2.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACA011DD1D3F4F7E005F1C94 /* RC Bot 2.0Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACA011F51D3F4F7E005F1C94 /* Build configuration list for PBXNativeTarget "RC Bot 2.0Tests" */;
+			buildPhases = (
+				ACA011DA1D3F4F7E005F1C94 /* Sources */,
+				ACA011DB1D3F4F7E005F1C94 /* Frameworks */,
+				ACA011DC1D3F4F7E005F1C94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACA011E01D3F4F7E005F1C94 /* PBXTargetDependency */,
+			);
+			name = "RC Bot 2.0Tests";
+			productName = "RC Bot 2.0Tests";
+			productReference = ACA011DE1D3F4F7E005F1C94 /* RC Bot 2.0Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACA011E81D3F4F7E005F1C94 /* RC Bot 2.0UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACA011F81D3F4F7E005F1C94 /* Build configuration list for PBXNativeTarget "RC Bot 2.0UITests" */;
+			buildPhases = (
+				ACA011E51D3F4F7E005F1C94 /* Sources */,
+				ACA011E61D3F4F7E005F1C94 /* Frameworks */,
+				ACA011E71D3F4F7E005F1C94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACA011EB1D3F4F7E005F1C94 /* PBXTargetDependency */,
+			);
+			name = "RC Bot 2.0UITests";
+			productName = "RC Bot 2.0UITests";
+			productReference = ACA011E91D3F4F7E005F1C94 /* RC Bot 2.0UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACA011BD1D3F4F7D005F1C94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Rakshith;
+				TargetAttributes = {
+					ACA011C41D3F4F7D005F1C94 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = M49K3N6YDE;
+					};
+					ACA011DD1D3F4F7E005F1C94 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = M49K3N6YDE;
+						TestTargetID = ACA011C41D3F4F7D005F1C94;
+					};
+					ACA011E81D3F4F7E005F1C94 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = M49K3N6YDE;
+						TestTargetID = ACA011C41D3F4F7D005F1C94;
+					};
+				};
+			};
+			buildConfigurationList = ACA011C01D3F4F7D005F1C94 /* Build configuration list for PBXProject "RC Bot 2.0" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACA011BC1D3F4F7D005F1C94;
+			productRefGroup = ACA011C61D3F4F7D005F1C94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACA011C41D3F4F7D005F1C94 /* RC Bot 2.0 */,
+				ACA011DD1D3F4F7E005F1C94 /* RC Bot 2.0Tests */,
+				ACA011E81D3F4F7E005F1C94 /* RC Bot 2.0UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACA011C31D3F4F7D005F1C94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA011D81D3F4F7D005F1C94 /* LaunchScreen.storyboard in Resources */,
+				ACA011D51D3F4F7D005F1C94 /* Assets.xcassets in Resources */,
+				ACA011D31D3F4F7D005F1C94 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACA011DC1D3F4F7E005F1C94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACA011E71D3F4F7E005F1C94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACA011C11D3F4F7D005F1C94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA011D01D3F4F7D005F1C94 /* ViewController.m in Sources */,
+				ACA011CD1D3F4F7D005F1C94 /* AppDelegate.m in Sources */,
+				ACA011CA1D3F4F7D005F1C94 /* main.m in Sources */,
+				ACCAEE671D3FDBD400FE5F14 /* L3SDKIPCam.m in Sources */,
+				ACCAEE681D3FDBD400FE5F14 /* L3SDKIPCamViewer.m in Sources */,
+				AC8EFE5B1D3F56740025FE71 /* JSAnalogueStick.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACA011DA1D3F4F7E005F1C94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA011E31D3F4F7E005F1C94 /* RC_Bot_2_0Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACA011E51D3F4F7E005F1C94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA011EE1D3F4F7E005F1C94 /* RC_Bot_2_0UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACA011E01D3F4F7E005F1C94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACA011C41D3F4F7D005F1C94 /* RC Bot 2.0 */;
+			targetProxy = ACA011DF1D3F4F7E005F1C94 /* PBXContainerItemProxy */;
+		};
+		ACA011EB1D3F4F7E005F1C94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACA011C41D3F4F7D005F1C94 /* RC Bot 2.0 */;
+			targetProxy = ACA011EA1D3F4F7E005F1C94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACA011D11D3F4F7D005F1C94 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACA011D21D3F4F7D005F1C94 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACA011D61D3F4F7D005F1C94 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACA011D71D3F4F7D005F1C94 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACA011F01D3F4F7E005F1C94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ACA011F11D3F4F7E005F1C94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACA011F31D3F4F7E005F1C94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "RC Bot 2.0/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rgb.RC-Bot-2-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ACA011F41D3F4F7E005F1C94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "RC Bot 2.0/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rgb.RC-Bot-2-0";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ACA011F61D3F4F7E005F1C94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "RC Bot 2.0Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rgb.RC-Bot-2-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RC Bot 2.0.app/RC Bot 2.0";
+			};
+			name = Debug;
+		};
+		ACA011F71D3F4F7E005F1C94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "RC Bot 2.0Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rgb.RC-Bot-2-0Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RC Bot 2.0.app/RC Bot 2.0";
+			};
+			name = Release;
+		};
+		ACA011F91D3F4F7E005F1C94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "RC Bot 2.0UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rgb.RC-Bot-2-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "RC Bot 2.0";
+			};
+			name = Debug;
+		};
+		ACA011FA1D3F4F7E005F1C94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "RC Bot 2.0UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rgb.RC-Bot-2-0UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "RC Bot 2.0";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACA011C01D3F4F7D005F1C94 /* Build configuration list for PBXProject "RC Bot 2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACA011F01D3F4F7E005F1C94 /* Debug */,
+				ACA011F11D3F4F7E005F1C94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACA011F21D3F4F7E005F1C94 /* Build configuration list for PBXNativeTarget "RC Bot 2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACA011F31D3F4F7E005F1C94 /* Debug */,
+				ACA011F41D3F4F7E005F1C94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACA011F51D3F4F7E005F1C94 /* Build configuration list for PBXNativeTarget "RC Bot 2.0Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACA011F61D3F4F7E005F1C94 /* Debug */,
+				ACA011F71D3F4F7E005F1C94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACA011F81D3F4F7E005F1C94 /* Build configuration list for PBXNativeTarget "RC Bot 2.0UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACA011F91D3F4F7E005F1C94 /* Debug */,
+				ACA011FA1D3F4F7E005F1C94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACA011BD1D3F4F7D005F1C94 /* Project object */;
+}
